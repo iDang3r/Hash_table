@@ -25,6 +25,12 @@
 /* Begin PBXFileReference section */
 		FACC3D7B2457F02C00EEA44C /* Hash_table */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hash_table; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACC3D7E2457F02C00EEA44C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FACC3D852457F0FF00EEA44C /* my_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = my_list.h; sourceTree = "<group>"; };
+		FACC3D862457F1F400EEA44C /* my_hash_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = my_hash_table.h; sourceTree = "<group>"; };
+		FACC3D872457F3D400EEA44C /* super_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = super_define.h; sourceTree = "<group>"; };
+		FACC3D882457F49E00EEA44C /* my_list_enums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = my_list_enums.h; sourceTree = "<group>"; };
+		FACC3D892457F5A800EEA44C /* MurMurHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MurMurHash.h; sourceTree = "<group>"; };
+		FACC3D8A2457F63000EEA44C /* dump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dump.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				FACC3D7E2457F02C00EEA44C /* main.cpp */,
+				FACC3D8A2457F63000EEA44C /* dump.h */,
+				FACC3D852457F0FF00EEA44C /* my_list.h */,
+				FACC3D862457F1F400EEA44C /* my_hash_table.h */,
+				FACC3D872457F3D400EEA44C /* super_define.h */,
+				FACC3D882457F49E00EEA44C /* my_list_enums.h */,
+				FACC3D892457F5A800EEA44C /* MurMurHash.h */,
 			);
 			path = Hash_table;
 			sourceTree = "<group>";
