@@ -38,7 +38,7 @@ public:
     
     long long kanareyka1_= Kanareyka_const;
 
-    static const int MAX_SIZE_ = 50000;
+    static const int MAX_SIZE_ = 200;
 //    const elem_t     poison_val_ = INT_MAX;
 
     int size_ = 0;
@@ -391,7 +391,7 @@ int List<elem_t>::push_back(const elem_t& value) {
 
     size_++;
 
-    rehash();
+//    rehash();
 
     ASSERT_OK
     return new_pos;

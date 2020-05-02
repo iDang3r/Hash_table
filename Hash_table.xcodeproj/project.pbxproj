@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FACC3D7F2457F02C00EEA44C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FACC3D7E2457F02C00EEA44C /* main.cpp */; };
+		FACC3D8F2459D70800EEA44C /* asm_code.s in Sources */ = {isa = PBXBuildFile; fileRef = FACC3D8E2459D70800EEA44C /* asm_code.s */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		FACC3D882457F49E00EEA44C /* my_list_enums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = my_list_enums.h; sourceTree = "<group>"; };
 		FACC3D892457F5A800EEA44C /* MurMurHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MurMurHash.h; sourceTree = "<group>"; };
 		FACC3D8A2457F63000EEA44C /* dump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dump.h; sourceTree = "<group>"; };
+		FACC3D8B2458AE8C00EEA44C /* file_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = file_lib.h; sourceTree = "<group>"; };
+		FACC3D8E2459D70800EEA44C /* asm_code.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = asm_code.s; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				FACC3D872457F3D400EEA44C /* super_define.h */,
 				FACC3D882457F49E00EEA44C /* my_list_enums.h */,
 				FACC3D892457F5A800EEA44C /* MurMurHash.h */,
+				FACC3D8B2458AE8C00EEA44C /* file_lib.h */,
+				FACC3D8E2459D70800EEA44C /* asm_code.s */,
 			);
 			path = Hash_table;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACC3D8F2459D70800EEA44C /* asm_code.s in Sources */,
 				FACC3D7F2457F02C00EEA44C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
