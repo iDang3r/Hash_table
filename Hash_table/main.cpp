@@ -206,6 +206,7 @@ size_t special_ded(void* p, size_t size) {
     size_t res = 0;
     for (size_t i = 0; i < size; i++)
         res += *((char*)p + i);
+    assert(size != 0);
     return res / size;
 }
 
