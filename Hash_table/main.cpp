@@ -248,7 +248,6 @@ int main(int argc, const char* argv[]) {
     timer = clock();
     
     char* end = buff + buff_size;
-    int c = 0;
     
     for (int k = 0; k < 10; k++) {
         
@@ -261,6 +260,7 @@ int main(int argc, const char* argv[]) {
             Q[last];
             
 #ifdef ASMlen
+            int c = 0;
             
             asm volatile (
              
