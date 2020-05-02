@@ -1,0 +1,18 @@
+{
+  "configurations" : [
+    {
+      "id" : "CA65C07F-25A2-434A-B48C-58112F07B05B",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

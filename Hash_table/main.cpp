@@ -6,7 +6,6 @@ using namespace std;
 
 extern "C" int  myStrlen(const char* s);
 extern "C" char myStrcmp(const char* s1, const char* s2);
-//extern "C" void f();
 
 #define strlen myStrlen
 #define strcmp myStrcmp
@@ -55,7 +54,6 @@ public:
 #else
         size_ = (int)strlen(s);
 #endif
-        
     }
     
     Str_on_poiners(const Str_on_poiners& s) {

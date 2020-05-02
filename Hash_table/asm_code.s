@@ -12,11 +12,6 @@
 
 .globl _myStrlen
 .globl _myStrcmp
-.globl _f
-
-_f:
-
-    ret
 
 _myStrlen:
 
