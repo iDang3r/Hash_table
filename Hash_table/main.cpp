@@ -7,8 +7,8 @@ using namespace std;
 extern "C" int  myStrlen(const char* s);
 extern "C" char myStrcmp(const char* s1, const char* s2);
 
-#define strlen myStrlen
-#define strcmp myStrcmp
+//#define strlen myStrlen
+//#define strcmp myStrcmp
 
 //#define ASMlen
 //#define ASMcmp
@@ -242,21 +242,17 @@ int main(int argc, const char* argv[]) {
         }
     }
     
-//    istringstream in(buff);
-    
     cout << "Fill time: " << double(clock() - timer) / CLOCKS_PER_SEC << endl;
     timer = clock();
     
     char* end = buff + buff_size;
     
-    for (int k = 0; k < 10; k++) {
+    for (int k = 0; k < 500; k++) {
         
         last = buff;
         
         while (last < end) {
             
-//            if (Q[last] == 0)
-//                throw runtime_error("pops");
             Q[last];
             
 #ifdef ASMlen
@@ -296,17 +292,14 @@ int main(int argc, const char* argv[]) {
     cout << "Find time: " << double(clock() - timer) / CLOCKS_PER_SEC << endl;
     timer = clock();
     
-//    ifstream in("/Users/alex/Desktop/DeDD 2.txt");
     ofstream out("/Users/alex/Desktop/Hash.csv");
-        
+    
     for (int i = 0; i < MAX_TABLE_SIZE; i++) {
-//        cout << i << ": " << Q.table[i]->size_ << endl;
         out << Q.table[i]->size_ << "; ";
     }
     
     cout << "Out time: " << double(clock() - timer) / CLOCKS_PER_SEC << endl;
     
-//    in.close();
     out.close();
     return 0;
 }
